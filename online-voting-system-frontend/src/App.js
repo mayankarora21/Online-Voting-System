@@ -29,6 +29,7 @@ class App extends Component {
     }
     routeChange=(route)=>{
         this.setState({route:route});
+//        console.log('hello')
     }
   render() {
       return(
