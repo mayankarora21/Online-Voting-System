@@ -1,0 +1,56 @@
+.App {
+  text-align: center;
+}
+
+.homeBackground{
+    background: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url(./components/Admin/vote-image.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    min-height:100vh;
+}
+
+.loginBackground{
+    background: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)),url(./images/authenticity.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    min-height:100vh;
+}
+.choiceBackground{
+    background: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url(./images/choice.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    min-height:100vh;
+}
+
+.bgWhiteOnHover:hover{
+    background: white;
+    color:black;
+}
+
+.bgTransparent{
+    background: transparent;
+}
+
+.bgBlack{
+    background: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8));
+}
+
+.resultsBackground{
+    padding:1%;
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(./images/results.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height:100%;
+}
+
+.fullHeight{
+    height:100%;
+}
+
+.scrollY{
+    overflow-y: scroll;
+}

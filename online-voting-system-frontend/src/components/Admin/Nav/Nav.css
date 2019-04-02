@@ -1,0 +1,10 @@
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link{
+    background-color:black;
+    color:white;
+}
+#pills-tabContent{
+    background:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6));
+/*    background:black;*/
+    height:100vh;
+    overflow-y: scroll;
+}
